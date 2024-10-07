@@ -37,7 +37,7 @@ app.use(cors(corsOptions));
 app.use(routes);
 
 // ENVIROMENT VARIABLES
-const PORT = process.env.PORT || 4000;
+const PORT = process.env.PORT ||  4000;
 const CONNECTION = process.env.CONNECTION;
 
 // TURN ON THE ( SERVER ) AND ( DATA BASE )
